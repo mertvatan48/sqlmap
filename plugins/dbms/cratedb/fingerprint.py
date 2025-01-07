@@ -66,7 +66,7 @@ class Fingerprint(GenericFingerprint):
             return True
 
         infoMsg = "testing %s" % DBMS.CRATEDB
-        logger.info(infoMsg)
+        loggedr.info(infoMsg)
 
         result = inject.checkBooleanExpression("IGNORE3VL(NULL IS NULL)")
 
